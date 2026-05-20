@@ -88,7 +88,6 @@ export default function Projects() {
                   <h3 className="text-lg font-extrabold text-text sm:text-xl">{project.title}</h3>
                   {project.subtitle && <p className="mt-1 text-xs font-bold uppercase tracking-[0.16em] text-primary sm:text-sm">{project.subtitle}</p>}
                 </div>
-                <span className="rounded-full border border-emerald-100 bg-emerald-50 px-3 py-1 text-xs font-black text-emerald-700">Live Work</span>
               </div>
               <p className="mt-3 text-[0.9rem] leading-6 text-muted sm:text-base sm:leading-7">{project.description}</p>
               <div className="mt-4 flex flex-wrap gap-2">
