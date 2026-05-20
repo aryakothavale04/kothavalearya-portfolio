@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0 fine-grid opacity-70" aria-hidden="true" />
       <div className="container-shell relative grid min-h-[92vh] items-center gap-8 pb-8 pt-[5.5rem] sm:min-h-[88vh] sm:pt-24 lg:grid-cols-[1.08fr_0.72fr]">
       <div className="max-w-3xl">
-        <motion.p initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="section-kicker inline-flex rounded-full border border-emerald-100 bg-white/80 px-3 py-1 shadow-sm">
+        <motion.p initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="section-kicker hidden rounded-full border border-emerald-100 bg-white/80 px-3 py-1 shadow-sm sm:inline-flex">
           Freelance MERN Website Developer
         </motion.p>
         <motion.h1 initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.58, delay: 0.05 }} className="mt-4 max-w-4xl text-[1.72rem] font-black leading-[1.12] tracking-tight text-text sm:text-[2.65rem] lg:text-[3rem]">
