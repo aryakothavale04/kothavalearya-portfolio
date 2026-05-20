@@ -69,6 +69,10 @@ textarea {
   outline-offset: 3px;
 }
 
+.section-space {
+  padding-block: 3.75rem;
+}
+
 .surface-band {
   position: relative;
   overflow: hidden;
@@ -97,6 +101,10 @@ textarea {
 @media (max-width: 640px) {
   .container-shell {
     width: min(100% - 24px, 1180px);
+  }
+
+  .section-space {
+    padding-block: 3rem;
   }
 
   .glass-card {

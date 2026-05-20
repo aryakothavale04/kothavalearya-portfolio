@@ -4,7 +4,7 @@ import { testimonials } from "../data/siteData.js";
 
 export default function Testimonials() {
   return (
-    <section className="container-shell py-16 sm:py-20">
+    <section className="container-shell section-space">
       <SectionHeader kicker="Testimonials" title="What Clients Say About Me" copy="Clear communication, polished execution, and websites that support the business goal." />
       <div className="grid gap-5 lg:grid-cols-2">
         {testimonials.map((testimonial, index) => (
@@ -14,7 +14,7 @@ export default function Testimonials() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.25 }}
             transition={{ delay: index * 0.06 }}
-            className="glass-card relative rounded-3xl p-6 sm:p-7"
+            className="glass-card relative rounded-3xl p-5 sm:p-6"
           >
             <span className="absolute right-6 top-5 text-5xl font-black leading-none text-primary/10">"</span>
             <blockquote className="relative leading-8 text-muted">"{testimonial.quote}"</blockquote>

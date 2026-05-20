@@ -4,7 +4,7 @@ import { reasons } from "../data/siteData.js";
 
 export default function WhyChooseMe() {
   return (
-    <section className="container-shell py-16 sm:py-20">
+    <section className="container-shell section-space">
       <SectionHeader kicker="Why Choose Me" title="Client-focused development from first call to final launch" />
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {reasons.map((reason, index) => {

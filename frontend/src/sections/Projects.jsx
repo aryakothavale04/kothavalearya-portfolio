@@ -76,13 +76,13 @@ function ProjectPreview({ project }) {
 
 export default function Projects() {
   return (
-    <section id="projects" className="container-shell py-16 sm:py-20">
+    <section id="projects" className="container-shell section-space">
       <SectionHeader kicker="Projects" title="Professional project showcases" copy="Business-focused applications with polished interfaces and practical backend workflows." />
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid gap-5 lg:grid-cols-2">
         {projects.map((project, index) => (
           <motion.article key={project.title} initial={{ opacity: 0, y: 28 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.25 }} transition={{ delay: index * 0.08 }} className="glass-card group overflow-hidden rounded-3xl transition duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-[0_28px_86px_rgba(15,23,42,0.14)]">
             <ProjectPreview project={project} />
-            <div className="p-5 sm:p-6">
+            <div className="p-5">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="text-xl font-extrabold text-text">{project.title}</h3>
@@ -91,14 +91,14 @@ export default function Projects() {
                 <span className="rounded-full border border-emerald-100 bg-emerald-50 px-3 py-1 text-xs font-black text-emerald-700">Live Work</span>
               </div>
               <p className="mt-3 leading-7 text-muted">{project.description}</p>
-              <div className="mt-5 flex flex-wrap gap-2">
+              <div className="mt-4 flex flex-wrap gap-2">
                 {project.stack.map((item) => (
                   <span key={item} className="rounded-full border border-line bg-white px-3 py-1 text-xs font-bold text-slate-700 shadow-sm">
                     {item}
                   </span>
                 ))}
               </div>
-              <div className="mt-5 grid gap-2">
+              <div className="mt-4 grid gap-2">
                 {project.features.map((feature) => (
                   <p key={feature} className="flex gap-2 text-[0.88rem] leading-6 text-muted">
                     <FiCheckCircle className="mt-0.5 shrink-0 text-emerald-600" />

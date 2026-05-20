@@ -40,31 +40,31 @@ const points = [
 
 export default function OnlineBusiness() {
   return (
-    <section id="business-growth" className="container-shell py-16 sm:py-20">
+    <section id="business-growth" className="container-shell section-space">
       <SectionHeader
         kicker="Business Growth"
         title="Why Your Business Needs to Be Online"
         copy="A professional website helps customers find you, trust you and contact you faster."
       />
 
-      <div className="grid gap-7 lg:grid-cols-[1fr_0.92fr]">
+      <div className="grid gap-5 lg:grid-cols-[1fr_0.92fr]">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.25 }}
-          className="rounded-3xl border border-line bg-card p-6 shadow-premium sm:p-8"
+          className="rounded-3xl border border-line bg-card p-5 shadow-premium sm:p-6"
         >
           <p className="text-[0.98rem] leading-8 text-muted">
             Modern customers compare businesses online before they call, visit or buy. A professional website gives your business a strong digital identity, improves visibility, builds trust and creates more opportunities to generate leads. With the right design, speed and user experience, your website can become a powerful business asset that helps you earn more and grow faster.
           </p>
 
-          <div className="mt-6 rounded-2xl border border-primary/20 bg-blue-50 p-5">
+          <div className="mt-5 rounded-2xl border border-primary/20 bg-blue-50 p-4">
             <p className="text-lg font-black leading-7 text-text">
               Your website is your digital identity and the first impression of your business.
             </p>
           </div>
 
-          <div className="mt-6 grid gap-3">
+          <div className="mt-5 grid gap-2.5">
             {points.map((point, index) => (
               <motion.div
                 key={point}
@@ -82,7 +82,7 @@ export default function OnlineBusiness() {
             ))}
           </div>
 
-          <div className="mt-7">
+          <div className="mt-5">
             <Button href="#contact" icon={FiArrowUpRight}>Build Your Website Today</Button>
           </div>
         </motion.div>
@@ -92,7 +92,7 @@ export default function OnlineBusiness() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.25 }}
           transition={{ delay: 0.08 }}
-          className="relative overflow-hidden rounded-3xl border border-line bg-[linear-gradient(145deg,#FFFFFF_0%,#EFF6FF_100%)] p-6 shadow-premium sm:p-8"
+          className="relative overflow-hidden rounded-3xl border border-line bg-[linear-gradient(145deg,#FFFFFF_0%,#EFF6FF_100%)] p-5 shadow-premium sm:p-6"
         >
           <div className="absolute right-8 top-8 h-24 w-24 rounded-full bg-primary/10 blur-2xl" />
           <div className="absolute bottom-10 left-8 h-24 w-24 rounded-full bg-accent/10 blur-2xl" />
@@ -112,8 +112,8 @@ export default function OnlineBusiness() {
               </motion.div>
             </div>
 
-            <div className="mt-8 rounded-3xl border border-line bg-card p-5">
-              <div className="flex items-end justify-between gap-3 border-b border-line pb-5">
+            <div className="mt-6 rounded-3xl border border-line bg-card p-4">
+              <div className="flex items-end justify-between gap-3 border-b border-line pb-4">
                 {[42, 58, 50, 72, 84, 96].map((height, index) => (
                   <motion.div
                     key={height}
@@ -126,7 +126,7 @@ export default function OnlineBusiness() {
                 ))}
               </div>
 
-              <div className="relative mt-7 h-28 overflow-hidden rounded-2xl bg-blue-50">
+              <div className="relative mt-5 h-24 overflow-hidden rounded-2xl bg-blue-50">
                 <svg className="absolute inset-0 h-full w-full" viewBox="0 0 320 112" fill="none" preserveAspectRatio="none">
                   <motion.path
                     d="M0 88 C48 82 58 54 108 60 C160 66 168 28 218 34 C264 40 280 18 320 22"
@@ -163,7 +163,7 @@ export default function OnlineBusiness() {
               </div>
             </div>
 
-            <div className="mt-5 grid grid-cols-2 gap-4">
+            <div className="mt-4 grid grid-cols-2 gap-3">
               {[
                 ["Revenue", "+42%", FiTrendingUp],
                 ["Traffic", "+68%", FiPieChart]
@@ -186,7 +186,7 @@ export default function OnlineBusiness() {
         </motion.div>
       </div>
 
-      <div className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {benefits.map((item, index) => {
           const Icon = item.icon;
           return (

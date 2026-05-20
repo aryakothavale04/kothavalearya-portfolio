@@ -4,7 +4,7 @@ import { services } from "../data/siteData.js";
 
 export default function Services() {
   return (
-    <section id="services" className="container-shell py-16 sm:py-20">
+    <section id="services" className="container-shell section-space">
       <SectionHeader kicker="Services" title="Websites and web apps built for real client outcomes" copy="Premium development for businesses that need more than a basic online page." />
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => {
