@@ -3,7 +3,7 @@ import { FiAward, FiExternalLink } from "react-icons/fi";
 
 export default function Certifications() {
   return (
-    <section id="certifications" className="container-shell section-space">
+    <section id="certifications" className="container-shell pt-6 pb-14 sm:pt-7 sm:pb-16">
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}

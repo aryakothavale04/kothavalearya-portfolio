@@ -5,7 +5,6 @@ import About from "./sections/About.jsx";
 import Certifications from "./sections/Certifications.jsx";
 import OnlineBusiness from "./sections/OnlineBusiness.jsx";
 import Projects from "./sections/Projects.jsx";
-import WhyChooseMe from "./sections/WhyChooseMe.jsx";
 import Testimonials from "./sections/Testimonials.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./components/Footer.jsx";
@@ -27,7 +26,6 @@ export default function App() {
         <Certifications />
         <OnlineBusiness />
         <Projects />
-        <WhyChooseMe />
         <Testimonials />
         <Contact />
       </main>
