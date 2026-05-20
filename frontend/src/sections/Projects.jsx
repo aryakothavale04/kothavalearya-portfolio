@@ -85,12 +85,12 @@ export default function Projects() {
             <div className="p-5">
               <div className="flex items-start justify-between gap-4">
                 <div>
-                  <h3 className="text-xl font-extrabold text-text">{project.title}</h3>
-                  {project.subtitle && <p className="mt-1 text-sm font-bold uppercase tracking-[0.16em] text-primary">{project.subtitle}</p>}
+                  <h3 className="text-lg font-extrabold text-text sm:text-xl">{project.title}</h3>
+                  {project.subtitle && <p className="mt-1 text-xs font-bold uppercase tracking-[0.16em] text-primary sm:text-sm">{project.subtitle}</p>}
                 </div>
                 <span className="rounded-full border border-emerald-100 bg-emerald-50 px-3 py-1 text-xs font-black text-emerald-700">Live Work</span>
               </div>
-              <p className="mt-3 leading-7 text-muted">{project.description}</p>
+              <p className="mt-3 text-[0.9rem] leading-6 text-muted sm:text-base sm:leading-7">{project.description}</p>
               <div className="mt-4 flex flex-wrap gap-2">
                 {project.stack.map((item) => (
                   <span key={item} className="rounded-full border border-line bg-white px-3 py-1 text-xs font-bold text-slate-700 shadow-sm">
@@ -100,7 +100,7 @@ export default function Projects() {
               </div>
               <div className="mt-4 grid gap-2">
                 {project.features.map((feature) => (
-                  <p key={feature} className="flex gap-2 text-[0.88rem] leading-6 text-muted">
+                  <p key={feature} className="flex gap-2 text-[0.82rem] leading-6 text-muted sm:text-[0.88rem]">
                     <FiCheckCircle className="mt-0.5 shrink-0 text-emerald-600" />
                     <span>{feature}</span>
                   </p>

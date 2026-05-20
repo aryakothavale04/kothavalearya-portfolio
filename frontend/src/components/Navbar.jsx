@@ -24,8 +24,8 @@ export default function Navbar() {
       <nav className="container-shell px-0 py-0">
         <div className="flex items-center justify-between gap-4">
           <a href="#home" className="focus-ring leading-none">
-            <span className="block text-lg font-black tracking-tight text-primary">KOTHAVALE</span>
-            <span className="-mt-1 block text-base font-black tracking-tight text-text">ARYA</span>
+            <span className="block text-base font-black tracking-tight text-primary sm:text-lg">KOTHAVALE</span>
+            <span className="-mt-1 block text-sm font-black tracking-tight text-text sm:text-base">ARYA</span>
           </a>
           <div className="hidden items-center gap-1 md:flex">
             {navLinks.map((link) => (

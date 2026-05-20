@@ -7,7 +7,7 @@ export default function Button({ href, children, variant = "primary", className 
   return (
     <a
       href={href}
-      className={`focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-full px-6 text-[0.9rem] font-extrabold transition duration-300 hover:-translate-y-0.5 max-sm:w-full ${styles} ${className}`}
+      className={`focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 text-[0.84rem] font-extrabold transition duration-300 hover:-translate-y-0.5 max-sm:w-full sm:min-h-12 sm:px-6 sm:text-[0.9rem] ${styles} ${className}`}
     >
       {Icon ? <Icon aria-hidden="true" /> : null}
       {children}

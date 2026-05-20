@@ -17,7 +17,7 @@ export default function Testimonials() {
             className="glass-card relative rounded-3xl p-5 sm:p-6"
           >
             <span className="absolute right-6 top-5 text-5xl font-black leading-none text-primary/10">"</span>
-            <blockquote className="relative leading-8 text-muted">"{testimonial.quote}"</blockquote>
+            <blockquote className="relative text-[0.9rem] leading-7 text-muted sm:text-base sm:leading-8">"{testimonial.quote}"</blockquote>
             <figcaption className="mt-6 border-t border-line pt-5">
               <p className="font-extrabold text-text">{testimonial.name}</p>
               <p className="mt-1 text-sm text-slate-500">{testimonial.role}</p>

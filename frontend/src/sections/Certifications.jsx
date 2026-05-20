@@ -13,14 +13,14 @@ export default function Certifications() {
         <div className="grid items-start gap-5 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
             <p className="section-kicker">Certification</p>
-            <h2 className="premium-heading mt-3 text-2xl text-text md:text-4xl">Certified Learning, Practical Development</h2>
+            <h2 className="premium-heading mt-3 text-[1.35rem] text-text sm:text-2xl md:text-4xl">Certified Learning, Practical Development</h2>
             <div className="mt-5 rounded-2xl border border-line bg-blue-50/70 p-5">
             <div className="flex gap-4">
               <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-primary text-xl text-white">
                 <FiAward />
               </span>
               <div>
-                <h3 className="text-lg font-black text-text">Sigma Prime Certification</h3>
+                <h3 className="text-base font-black text-text sm:text-lg">Sigma Prime Certification</h3>
                 <p className="mt-2 text-sm leading-6 text-muted">
                   This certification reflects continuous learning, problem-solving discipline and a stronger foundation for building modern, reliable and user-focused web applications.
                 </p>

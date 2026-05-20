@@ -12,10 +12,10 @@ export default function Hero() {
         <motion.p initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="section-kicker inline-flex rounded-full border border-emerald-100 bg-white/80 px-3 py-1 shadow-sm">
           Freelance MERN Website Developer
         </motion.p>
-        <motion.h1 initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.58, delay: 0.05 }} className="mt-4 max-w-4xl text-[2rem] font-black leading-[1.1] tracking-tight text-text sm:text-[2.65rem] lg:text-[3rem]">
+        <motion.h1 initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.58, delay: 0.05 }} className="mt-4 max-w-4xl text-[1.72rem] font-black leading-[1.12] tracking-tight text-text sm:text-[2.65rem] lg:text-[3rem]">
           Need a Website for Your <span className="text-primary">Business or Project?</span>
         </motion.h1>
-        <motion.p initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.58, delay: 0.12 }} className="mt-4 max-w-2xl text-base leading-7 text-text sm:text-lg">
+        <motion.p initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.58, delay: 0.12 }} className="mt-4 max-w-2xl text-[0.92rem] leading-6 text-text sm:text-lg sm:leading-7">
           Contact me for modern, responsive & fast websites that help businesses grow online.
         </motion.p>
         <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.58, delay: 0.18 }} className="mt-5 flex flex-col gap-3 sm:flex-row">
@@ -32,7 +32,7 @@ export default function Hero() {
             className="h-[300px] w-full bg-slate-950 object-cover object-[50%_72%] sm:h-[360px] lg:h-[410px]"
           />
           <div className="absolute bottom-5 left-4 right-4 px-4 py-3 text-center">
-            <p className="text-xl font-black text-white drop-shadow-[0_3px_10px_rgba(0,0,0,0.9)] sm:text-2xl">Kothavale Arya</p>
+            <p className="text-lg font-black text-white drop-shadow-[0_3px_10px_rgba(0,0,0,0.9)] sm:text-2xl">Kothavale Arya</p>
             <p className="mt-1 text-xs font-bold text-white drop-shadow-[0_2px_7px_rgba(0,0,0,0.9)]">Computer Engineer</p>
           </div>
         </div>

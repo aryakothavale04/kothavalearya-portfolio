@@ -14,8 +14,8 @@ export default function Services() {
               <div className="mb-5 flex h-11 w-11 items-center justify-center rounded-2xl bg-blue-50 text-xl text-primary transition group-hover:bg-primary group-hover:text-white sm:mb-6">
                 <Icon />
               </div>
-              <h3 className="text-lg font-extrabold text-text">{service.title}</h3>
-              <p className="mt-3 text-[0.92rem] leading-7 text-muted">{service.copy}</p>
+              <h3 className="text-base font-extrabold text-text sm:text-lg">{service.title}</h3>
+              <p className="mt-3 text-[0.86rem] leading-6 text-muted sm:text-[0.92rem] sm:leading-7">{service.copy}</p>
             </motion.article>
           );
         })}
