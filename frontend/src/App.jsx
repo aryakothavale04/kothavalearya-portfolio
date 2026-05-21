@@ -8,6 +8,7 @@ import Testimonials from "./sections/Testimonials.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import CursorGlow from "./components/CursorGlow.jsx";
+import StickyWhatsApp from "./components/StickyWhatsApp.jsx";
 
 export default function App() {
   const { scrollYProgress } = useScroll();
@@ -27,6 +28,7 @@ export default function App() {
         <Testimonials />
         <Contact />
       </main>
+      <StickyWhatsApp />
       <Footer />
     </div>
   );
