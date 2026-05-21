@@ -17,11 +17,11 @@ export default function Contact() {
             <span className="rounded-full border border-emerald-100 bg-emerald-50 px-3 py-1 text-xs font-black text-emerald-700">Open</span>
           </div>
           <div className="mt-5 grid gap-3 text-muted">
-            <a className="focus-ring flex min-w-0 items-center gap-3 rounded-2xl border border-line bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-primary/40 hover:bg-blue-50" href="mailto:kothavalearya1212@gmail.com">
-              <span className="icon-tile h-10 w-10 shrink-0 rounded-xl"><FiMail /></span> <span className="min-w-0 break-all">kothavalearya1212@gmail.com</span>
+            <a className="focus-ring flex min-w-0 items-center gap-2.5 rounded-2xl border border-line bg-white p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-primary/40 hover:bg-blue-50 sm:gap-3 sm:p-4" href="mailto:kothavalearya1212@gmail.com">
+              <span className="icon-tile h-9 w-9 shrink-0 rounded-xl sm:h-10 sm:w-10"><FiMail /></span> <span className="min-w-0 whitespace-nowrap text-[0.78rem] font-semibold sm:text-base">kothavalearya1212@gmail.com</span>
             </a>
-            <a className="focus-ring flex items-center gap-3 rounded-2xl border border-line bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-primary/40 hover:bg-blue-50" href="tel:+918766952102">
-              <span className="icon-tile h-10 w-10 shrink-0 rounded-xl"><FiPhone /></span> +91 8766952102
+            <a className="focus-ring flex items-center gap-2.5 rounded-2xl border border-line bg-white p-3 shadow-sm transition hover:-translate-y-0.5 hover:border-primary/40 hover:bg-blue-50 sm:gap-3 sm:p-4" href="tel:+918766952102">
+              <span className="icon-tile h-9 w-9 shrink-0 rounded-xl sm:h-10 sm:w-10"><FiPhone /></span> +91 8766952102
             </a>
           </div>
           <div className="mt-5 flex flex-col gap-3 sm:flex-row">
