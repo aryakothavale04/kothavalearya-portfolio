@@ -9,7 +9,7 @@ function FooterCredit() {
       className="focus-ring group rounded-sm text-center font-semibold transition duration-300 hover:-translate-y-0.5"
       aria-label="Visit Arya Kothavale portfolio"
     >
-      <span className="block text-[11px] uppercase tracking-[0.22em] text-black/35 transition duration-300 group-hover:text-black/55 dark:text-white/35 dark:group-hover:text-white/55">
+      <span className="block text-[11px] uppercase tracking-[0.22em] text-black transition duration-300 group-hover:text-black/75 dark:text-white dark:group-hover:text-white/75">
         Developed by Arya Kothavale
       </span>
       <span className="mt-1 block text-[11px] normal-case tracking-[0.08em] text-blue-700 underline underline-offset-2 transition duration-300 group-hover:text-blue-800 dark:text-blue-300 dark:group-hover:text-blue-200">
