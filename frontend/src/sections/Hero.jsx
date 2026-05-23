@@ -23,12 +23,12 @@ export default function Hero() {
         </motion.div>
         <div className="mt-8 hidden h-6 sm:block" aria-hidden="true" />
       </div>
-      <motion.div initial={{ opacity: 0, scale: 0.96, y: 24 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.15 }} className="relative mx-auto w-full max-w-[300px] sm:max-w-[340px] lg:max-w-[370px]">
+      <motion.div initial={{ opacity: 0, scale: 0.96, y: 24 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.15 }} className="relative mx-auto w-full max-w-[235px] sm:max-w-[340px] lg:max-w-[370px]">
         <div className="relative overflow-hidden rounded-[2rem] rounded-t-[160px] border border-white bg-card shadow-[0_30px_90px_rgba(15,23,42,0.16)] ring-1 ring-slate-200/80">
           <img
             src="/arya-headshot.jpeg"
             alt="Arya Kothavale"
-            className="h-[300px] w-full bg-amber-100 object-cover object-center sm:h-[360px] lg:h-[410px]"
+            className="h-[235px] w-full bg-amber-100 object-cover object-center sm:h-[360px] lg:h-[410px]"
           />
           <div className="absolute bottom-5 left-4 right-4 px-4 py-3 text-center">
             <p className="text-lg font-black text-white drop-shadow-[0_3px_10px_rgba(0,0,0,0.9)] sm:text-2xl">Kothavale Arya</p>
