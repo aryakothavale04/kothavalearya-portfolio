@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative overflow-hidden bg-[linear-gradient(120deg,#FFFFFF_0%,#FFFFFF_46%,#F0FDFA_72%,#EEF2FF_100%)]">
       <div className="absolute inset-0 fine-grid opacity-70" aria-hidden="true" />
-      <div className="container-shell relative grid min-h-[92vh] items-center gap-8 pb-8 pt-[5.5rem] sm:min-h-[88vh] sm:pt-24 lg:grid-cols-[1.08fr_0.72fr]">
+      <div className="container-shell relative grid items-start gap-8 pb-12 pt-[5.5rem] sm:gap-10 sm:pt-24 lg:min-h-[88vh] lg:grid-cols-[1.08fr_0.72fr] lg:items-center lg:pb-8">
       <div className="max-w-3xl">
         <motion.p initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="section-kicker hidden rounded-full border border-emerald-100 bg-white/80 px-3 py-1 shadow-sm sm:inline-flex">
           Freelance MERN Website Developer
