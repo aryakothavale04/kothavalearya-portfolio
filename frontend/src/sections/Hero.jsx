@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { FiBriefcase, FiMail } from "react-icons/fi";
 import Button from "../components/Button.jsx";
-import aryaPhoto from "../assets/arya-photo.jpg";
 
 export default function Hero() {
   return (
@@ -27,9 +26,9 @@ export default function Hero() {
       <motion.div initial={{ opacity: 0, scale: 0.96, y: 24 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.15 }} className="relative mx-auto w-full max-w-[300px] sm:max-w-[340px] lg:max-w-[370px]">
         <div className="relative overflow-hidden rounded-[2rem] rounded-t-[160px] border border-white bg-card shadow-[0_30px_90px_rgba(15,23,42,0.16)] ring-1 ring-slate-200/80">
           <img
-            src={aryaPhoto}
+            src="/arya-headshot.jpeg"
             alt="Arya Kothavale"
-            className="h-[300px] w-full bg-slate-950 object-cover object-[50%_72%] sm:h-[360px] lg:h-[410px]"
+            className="h-[300px] w-full bg-amber-100 object-cover object-center sm:h-[360px] lg:h-[410px]"
           />
           <div className="absolute bottom-5 left-4 right-4 px-4 py-3 text-center">
             <p className="text-lg font-black text-white drop-shadow-[0_3px_10px_rgba(0,0,0,0.9)] sm:text-2xl">Kothavale Arya</p>

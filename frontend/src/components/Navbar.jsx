@@ -23,9 +23,16 @@ export default function Navbar() {
     >
       <nav className="container-shell px-0 py-0">
         <div className="flex items-center justify-between gap-3">
-          <a href="#home" className="focus-ring leading-none">
-            <span className="block text-sm font-black tracking-tight text-primary sm:text-base">KOTHAVALE</span>
-            <span className="-mt-1 block text-xs font-black tracking-tight text-text sm:text-sm">ARYA</span>
+          <a href="#home" className="focus-ring inline-flex items-center gap-2 leading-none">
+            <img
+              src="/arya-headshot.jpeg"
+              alt="Arya Kothavale"
+              className="h-10 w-10 rounded-full border border-white object-cover object-center shadow-sm ring-1 ring-line sm:h-11 sm:w-11"
+            />
+            <span>
+              <span className="block text-sm font-black tracking-tight text-primary sm:text-base">KOTHAVALE</span>
+              <span className="-mt-1 block text-xs font-black tracking-tight text-text sm:text-sm">ARYA</span>
+            </span>
           </a>
           <div className="hidden items-center gap-1 md:flex">
             {navLinks.map((link) => (
