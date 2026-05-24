@@ -1,16 +1,3 @@
-import {
-  FiBarChart2,
-  FiCode,
-  FiCpu,
-  FiGlobe,
-  FiLayout,
-  FiLifeBuoy,
-  FiMonitor,
-  FiSearch,
-  FiShield,
-  FiSmartphone,
-  FiZap
-} from "react-icons/fi";
 import ramadarLaptop from "../assets/projects/ramadar-laptop.png";
 import ramadarMobile from "../assets/projects/ramadar-mobile.jpeg";
 import shivamLaptop from "../assets/projects/shivam-laptop.png";
@@ -22,16 +9,6 @@ export const navLinks = [
   { label: "Certifications", href: "#certifications" },
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" }
-];
-
-export const services = [
-  { title: "Business Websites", icon: FiGlobe, copy: "Trust-building websites that explain your offer clearly and turn visitors into leads." },
-  { title: "Portfolio Websites", icon: FiMonitor, copy: "Sharp personal and brand portfolios with fast loading, responsive layouts, and clean storytelling." },
-  { title: "Admin Dashboards", icon: FiBarChart2, copy: "Practical dashboards for managing data, reports, users, workflows, and daily operations." },
-  { title: "Landing Pages", icon: FiLayout, copy: "Focused pages for launches, campaigns, services, and lead generation." },
-  { title: "Responsive Design", icon: FiSmartphone, copy: "Layouts that feel polished on mobile, tablet, laptop, and large displays." },
-  { title: "Website Maintenance", icon: FiLifeBuoy, copy: "Ongoing updates, improvements, bug fixes, and performance care." },
-  { title: "Full Stack MERN Applications", icon: FiCpu, copy: "MongoDB, Express, React, and Node apps with clean APIs and scalable structure." }
 ];
 
 export const projects = [
@@ -80,24 +57,15 @@ export const projects = [
   }
 ];
 
-export const reasons = [
-  { title: "Fast Delivery", icon: FiZap },
-  { title: "Responsive Design", icon: FiSmartphone },
-  { title: "Modern UI", icon: FiLayout },
-  { title: "SEO Friendly", icon: FiSearch },
-  { title: "Scalable Backend", icon: FiCode },
-  { title: "Client Support", icon: FiShield }
-];
-
 export const testimonials = [
   {
     name: "Omkar Kothavale",
     role: "Owner, SHIVAM STONE CRUSHER",
-    quote: "Arya understood our workflow quickly and delivered a clean, responsive website that made daily management easier. Huge shoutout to Arya for delivering an incredible website! He perfectly captured what I was looking for, and the user experience is top-notch. The process was smooth, and he was highly professional throughout. Highly recommend!"
+    quote: "Arya delivered a clean, responsive website that made daily management easier. Huge shoutout to Arya for delivering an incredible website! He was highly professional throughout the entire process. Highly recommended!"
   },
   {
     name: "Tohir Jamadar",
     role: "Owner, JAMADAR WHOLESALERS",
-    quote: "I am very impressed with the website and system developed for my business. It helps us automatically pack customer orders with almost zero mistakes, which has improved our work speed and customer satisfaction a lot. Arya is always available for support whenever needed. The website is smooth, user-friendly, and very reliable for daily business operations. Highly recommended for anyone looking for smart business automation solutions!"
+    quote: "I am very impressed with the website and system developed for my business. It helps us pack customer orders automatically with almost zero mistakes, which has greatly improved our work speed and customer satisfaction. The website is smooth, user-friendly, and very reliable for daily business operations. Highly recommended for anyone looking for smart business automation solutions!"
   }
 ];
