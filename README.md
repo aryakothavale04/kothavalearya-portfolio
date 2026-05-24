@@ -1,4 +1,4 @@
-# Arya Kothavale Portfolio Website
+# Arya Pranita Prashant Kothavale Portfolio Website
 
 Modern portfolio website for showcasing freelance website development work, business projects, certifications, testimonials, and direct contact links.
 

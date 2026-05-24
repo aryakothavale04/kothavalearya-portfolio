@@ -27,11 +27,11 @@ export default function Hero() {
         <div className="relative overflow-hidden rounded-[2rem] rounded-t-[160px] border border-white bg-card shadow-[0_30px_90px_rgba(15,23,42,0.16)] ring-1 ring-slate-200/80">
           <img
             src="/arya-headshot.jpeg"
-            alt="Arya Kothavale"
+            alt="Arya Pranita Prashant Kothavale"
             className="h-[235px] w-full bg-amber-100 object-cover object-center sm:h-[360px] lg:h-[410px]"
           />
           <div className="absolute bottom-5 left-4 right-4 px-4 py-3 text-center">
-            <p className="text-lg font-black text-white drop-shadow-[0_3px_10px_rgba(0,0,0,0.9)] sm:text-2xl">Kothavale Arya</p>
+            <p className="text-lg font-black text-white drop-shadow-[0_3px_10px_rgba(0,0,0,0.9)] sm:text-2xl">Arya Pranita Prashant Kothavale</p>
             <p className="mt-1 text-xs font-bold text-white drop-shadow-[0_2px_7px_rgba(0,0,0,0.9)]">Computer Engineer</p>
           </div>
         </div>

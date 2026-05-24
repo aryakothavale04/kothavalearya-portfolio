@@ -7,10 +7,10 @@ function FooterCredit() {
       target="_blank"
       rel="noreferrer"
       className="focus-ring group block max-w-full rounded-sm px-2 text-center font-semibold transition duration-300 hover:-translate-y-0.5"
-      aria-label="Visit Arya Kothavale portfolio"
+      aria-label="Visit Arya Pranita Prashant Kothavale portfolio"
     >
       <span className="block text-[13px] font-extrabold uppercase leading-6 tracking-[0.08em] text-black opacity-100 transition duration-300 group-hover:text-black/75 dark:text-white dark:group-hover:text-white/80 sm:text-[12px] sm:tracking-[0.16em]">
-        Developed by Arya Kothavale
+        Developed by Arya Pranita Prashant Kothavale
       </span>
       <span className="mt-1 block text-[12px] normal-case leading-5 tracking-[0.05em] text-blue-700 underline underline-offset-2 transition duration-300 group-hover:text-blue-800 dark:text-blue-300 dark:group-hover:text-blue-200 sm:text-[11px] sm:tracking-[0.08em]">
         kothavalearya.online

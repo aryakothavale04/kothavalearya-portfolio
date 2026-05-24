@@ -26,7 +26,7 @@ export default function Navbar() {
           <a href="#home" className="focus-ring inline-flex items-center gap-2 leading-none">
             <img
               src="/arya-headshot.jpeg"
-              alt="Arya Kothavale"
+              alt="Arya Pranita Prashant Kothavale"
               className="h-10 w-10 rounded-full border border-white object-cover object-center shadow-sm ring-1 ring-line sm:h-11 sm:w-11"
             />
             <span>

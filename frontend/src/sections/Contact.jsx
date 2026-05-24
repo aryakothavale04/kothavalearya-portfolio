@@ -11,7 +11,7 @@ export default function Contact() {
         <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="glass-card rounded-3xl p-5 sm:p-6">
           <div className="flex items-start justify-between gap-4">
             <div>
-              <h3 className="text-lg font-extrabold text-text sm:text-xl">Arya Kothavale</h3>
+              <h3 className="text-lg font-extrabold text-text sm:text-xl">Arya Pranita Prashant Kothavale</h3>
               <p className="mt-2 text-[0.86rem] font-semibold text-muted sm:text-sm">Available for websites, dashboards, and business automation systems.</p>
             </div>
             <span className="rounded-full border border-emerald-100 bg-emerald-50 px-3 py-1 text-xs font-black text-emerald-700">Open</span>
