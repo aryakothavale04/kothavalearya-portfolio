@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "kothavalearya.online"
+        }
+      ],
+      "destination": "https://www.kothavalearya.online/:path*",
+      "permanent": true
+    }
+  ]
+}
